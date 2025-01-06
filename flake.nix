@@ -14,7 +14,7 @@
         version = "1.0.0";
 
         src = pkgs.fetchzip {
-          url = "http://kafpi.local/GOST Type.zip";
+          url = "http://kafpi.local/GOST_Type.zip";
           sha256 = "";
           stripRoot = false;
         };
