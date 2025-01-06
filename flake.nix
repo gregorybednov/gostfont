@@ -13,7 +13,7 @@
         pname = "gosttypefont";
         version = "1.0.0";
 
-        src = fetchzip {
+        src = pkgs.fetchzip {
           url = "http://kafpi.local/GOST Type.zip";
           sha256 = "";
           stripRoot = false;
