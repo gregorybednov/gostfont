@@ -15,7 +15,7 @@
 
         src = pkgs.fetchzip {
           url = "http://kafpi.local/GOST_Type.zip";
-          sha256 = "";
+          sha256 = "sha256-c7jwmmQX0gpLcFxX+cZ5m55eGxNnyKnJW7ggoefN6s4=";
           stripRoot = false;
         };
 
