@@ -31,14 +31,6 @@
           install -Dm644 -t $out/share/fonts/truetype/ *.ttf
           runHook postInstall
        '';
-
-      meta = with lib; {
-        description = "Typeface made for engineers";
-        homepage = "https://ascon.ru/";
-        license = licenses.unfree;
-        maintainers = with maintainers; [ gregorybednov ];
-        platforms = platforms.all;
-      };
   };
   in {
       packages.x86_64-linux.gostfont = gostfont;
